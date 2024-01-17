@@ -22,10 +22,25 @@ nav {
     gap: 10px;
 }
 
+.container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-item {
+    color: #403930;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
 header {
     display: flex;
     width: 1366px;
-    height: 662px;
     padding: 100px 120px;
     flex-direction: column;
     justify-content: center;
@@ -35,7 +50,6 @@ header {
 
 .box {
     width: 1120px;
-    height: 464px;
     flex-shrink: 0;
     display: flex;
     align-items: flex-start;
@@ -45,7 +59,6 @@ header {
 .mainheader {
     display: flex;
     width: 556.001px;
-    height: 464px;
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
@@ -67,7 +80,7 @@ header {
     padding: 12px 24px;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 3px;
     border-radius: 10px;
     background: #E6EEFF;
     color: #000;
@@ -76,6 +89,7 @@ header {
     font-style: normal;
     font-weight: 600;
     line-height: 1.5;
+    margin-bottom: 40px;
 }
 
 .maintext1 {
@@ -93,68 +107,20 @@ header {
     -webkit-text-fill-color: transparent;
 }
 
-.aboutme {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
-.tech {
-    display: flex;
-    width: 1366px;
-    height: 666px;
-    padding: 100px 120px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.sectionframe {
-    display: flex;
-    width: 1366px;
-    height: 497px;
-    padding: 100px 120px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
-}
-
-.sectionmain {
-    display: flex;
-    width: 1120px;
-    height: 300px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 20px;
-    flex-shrink: 0;
-}
-
-.sectiontext1 {
-    color: #000;
-    font-family: Pretendard;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.25;
-    letter-spacing: -0.8px;
-}
-
-.sectiontext2 {
-    height: 172px;
-    flex-shrink: 0;
-    align-self: stretch;
+.maintext2 {
+    width: 550px;
     color: #333;
     font-family: Pretendard;
-    font-size: 20px;
+    font-size: 64px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: -1.28px;
+    background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
 
 .buttons {
     display: flex;
@@ -222,40 +188,133 @@ header {
     background-size: cover;
 }
 
-.maintext2 {
-    width: 550px;
-    color: #333;
-    font-family: Pretendard;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: 1.25;
-    letter-spacing: -1.28px;
-    background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.container {
+.aboutme {
     display: flex;
-    height: 100px;
-    align-items: center;
-    gap: 40px;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.nav-item {
-    color: #403930;
+.sectionframe {
+    display: flex;
+    width: 1366px;
+    /* height: 497px; */
+    padding: 100px 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+}
+
+.sectionmain {
+    display: flex;
+    width: 1120px;
+    /* height: 300px; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.sectiontext1 {
+    color: #000;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.8px;
+}
+
+.sectiontext2 {
+    /* height: 172px; */
+    flex-shrink: 0;
+    box-sizing: border-box;
+    align-self: stretch;
+    color: #333;
     font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 1.5;
+}
+
+.tech {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.techgroup {
+    width: 1120px;
+    flex-shrink: 0;
+}
+
+.techsection {
+    display: flex;
+    width: 1120px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+
+.techmainhead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.techtitle {
+    color: #000;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.8px;
+}
+
+.techcontent {
+    color: #333;
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.techmaincontent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.techmainfirst {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+.techdetails{
+    width: 112px;
+    height: 112px;
+}
+
+.techmainsecond {
+    display: flex;
+    align-items: center;
+    gap: 80px;
 }
 
 footer {
     width: 1366px;
-    height: 182px;
+
 }
 
 .lastbox {
@@ -264,7 +323,7 @@ footer {
     height: 182px;
     flex-shrink: 0;
     background: #FAFAFA;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -273,9 +332,9 @@ footer {
 .contactdial {
     display: inline-flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     gap: 35px;
-    
+
 }
 
 .facebook {
@@ -309,15 +368,16 @@ footer {
 
 .contactmebox {
     position: fixed;
-    bottom:100px;
-    right:60px;
+    bottom: 100px;
+    right: 60px;
     width: 165px;
     height: 88px;
     flex-shrink: 0;
 }
 
 .contactme {
-    display: flex;;
+    display: flex;
+    ;
     justify-content: center;
     align-items: center;
     width: 165px;
@@ -334,31 +394,37 @@ footer {
     font-weight: 700;
     line-height: normal;
 }
-.typing-demo{
+
+.typing-demo {
     animation: typing 1s steps(22), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
 }
-.blink-demo{
+
+.blink-demo {
     animation: blink1 1s infinite;
+
 }
+
 @keyframes blink1 {
     from {
         opacity: 1;
     }
-    to{
+
+    to {
         opacity: 0;
     }
 }
+
 @keyframes typing {
     from {
-      width: 0
+        width: 0
     }
-  }
-      
-  @keyframes blink {
+}
+
+@keyframes blink {
     50% {
-      border-color: transparent
+        border-color: transparent
     }
-  }
+}

@@ -1,0 +1,287 @@
+@media (max-width:860px) {
+    .contactmebox {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        width: 350px;
+        padding: 0px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-self: stretch;
+        gap: 32px;
+    }
+
+    .container {
+        display: flex;
+        height: 60px;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .nav-item {
+        color: #403930;
+        font-family: Pretendard;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    header {
+        display: flex;
+        width: 370px;
+        height: fit-content;
+        padding: 30px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .box {
+        display: flex;
+        width: 360px;
+        padding: 20px 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .mainheader {
+        width: 360px;
+        padding: 20px 10px;
+        gap: 10px;
+        height: fit-content;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .mainheadtext {
+        display: flex;
+        padding: 8px 15px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 10px;
+        background: #E6EEFF;
+        color: #000;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .maintext1 {
+        width: auto;
+        align-self: stretch;
+        color: #333;
+        font-family: Pretendard;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.64px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .maintext2 {
+        width: auto;
+        align-self: stretch;
+        color: #333;
+        font-family: Pretendard;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -0.64px;
+        background: linear-gradient(99deg, #001F8F 3.58%, rgba(36, 255, 203, 0.50) 90.34%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .buttons {
+        display: flex;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .leftbutton {
+        display: flex;
+        width: 120px;
+        box-sizing: border-box;
+        padding: 16px 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: #000;
+        border: 1px solid black;
+    }
+
+    .leftbuttondetails {
+        color: #FFF;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .rightbutton {
+        display: flex;
+        width: 120px;
+        padding: 16px 20px;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        border: 1px solid #403930;
+    }
+
+    .rightbuttondetails {
+        color: #403930;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.5;
+    }
+
+    .rightimage {
+        display: none;
+    }
+
+    .aboutme {
+        display: flex;
+        width: 390px;
+        flex-direction: column;
+        align-items: flex-start;
+
+    }
+
+    .sectionframe {
+        display: flex;
+        width: 320px;
+        padding: 40px 35px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        align-self: stretch;
+        background: linear-gradient(96deg, rgba(189, 210, 255, 0.40) 1.72%, rgba(116, 224, 215, 0.40) 158.93%);
+    }
+
+    .sectionmain {
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 15px;
+        flex-shrink: 0;
+    }
+
+    .sectiontext1 {
+        align-self: stretch;
+        color: #333;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5;
+        letter-spacing: -0.36px;
+    }
+
+    .iconfav {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+    }
+
+    .sectiontext2 {
+        align-self: stretch;
+        color: #333;
+        font-family: Pretendard;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: -0.28px;
+    }
+
+    .tech {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer {
+        display: flex;
+        width: 390px;
+        padding: 40px 0px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        align-self: stretch;
+        background: #FAFAFA;
+    }
+
+    .lastbox {
+        text-align: center;
+        width: 390px;
+        height: auto;
+        flex-shrink: 0;
+        background: #FAFAFA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contactdial {
+        display: inline-flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 10px;
+
+    }
+
+    .facebook {
+        width: 30px;
+        height: 30px;
+        fill: var(--Dark);
+    }
+
+    .insta {
+        width: 30px;
+        height: 30px;
+    }
+
+    .linked {
+        width: 30px;
+        height: 30px;
+        fill: var(--Dark);
+    }
+
+    .copyright {
+        align-content: center;
+        /* align-self: stretch; */
+        color: var(--Dark);
+        text-align: center;
+        font-family: Heebo;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
