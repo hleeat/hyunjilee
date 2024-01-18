@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     background: #FFF;
+    margin:0px;
 }
 
 nav {
@@ -566,6 +567,12 @@ font-style: normal;
 font-weight: 600;
 line-height: 1.25;
 letter-spacing: -0.96px;
+}
+.enterspace1{
+    display: none;
+}
+.enterspace2{
+    
 }
 footer {
     width: 1366px;
