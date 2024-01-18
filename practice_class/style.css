@@ -582,7 +582,9 @@ header {
     display: none;
 }
 
-.enterspace2 {}
+.enterspace2 {
+    display: flex;
+}
 
 footer {
     width: 1366px;
